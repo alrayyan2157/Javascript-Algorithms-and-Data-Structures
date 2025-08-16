@@ -21,7 +21,7 @@ You can try the live demo on CodePen:
 
 ## Screenshots
 
-![Screenshot of Palindrome Checker](https://github.com/alrayyan2157/Javascript-Algorithms-and-Data-Structures/blob/main/img/Screenshot%202025-08-12%20at%203.19.47%20PM.png?raw=true)
+![Screenshot of Palindrome Checker]([https://github.com/alrayyan2157/Javascript-Algorithms-and-Data-Structures/blob/main/img/Screenshot%202025-08-12%20at%203.19.47%20PM.png?raw=true](https://github.com/alrayyan2157/Javascript-Algorithms-and-Data-Structures/blob/main/Palindrome%20Checker/img/Screenshot%202025-08-12%20at%203.19.47%20PM.png?raw=true))
 
 ---
 
