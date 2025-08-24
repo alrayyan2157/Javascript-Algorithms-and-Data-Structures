@@ -28,13 +28,15 @@ const toRomanNumeral = (num) => {
     return result;
 };
 
-convertBtn.addEventListener('click', () => {
+convertBtn.addEventListener('click', (e) => {
+    e.preventDefault();
     const inputValue = inputField.value;
+
     if (inputValue === '') {
         resultField.textContent = 'Please enter a valid number.';
         return;
     }
-     if (Number(inputValue) < 1) {
+    if (Number(inputValue) < 1) {
         resultField.textContent = 'Please enter a number greater than or equal to 1';
         return;
     }
@@ -42,7 +44,8 @@ convertBtn.addEventListener('click', () => {
         resultField.textContent = 'Please enter a number less than or equal to 3999';
         return;
     }
+
     const number = parseInt(inputValue);
     const romanNumeral = toRomanNumeral(number);
-    resultField.textContent = `Roman numeral: ${romanNumeral}`;
+    resultField.textContent = romanNumeral;
 });
