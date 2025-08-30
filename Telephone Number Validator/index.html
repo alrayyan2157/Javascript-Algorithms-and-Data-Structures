@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Number Validator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="validator-section">
+            <h1>Telephone Number Validator</h1>
+            <p>Enter a telephone number to check if it is valid:</p>
+            <form id="input-container" >
+                <label for="user-input" class="visually-hidden">Telephone Number</label>
+                <input 
+                    id="user-input" 
+                    type="text" 
+                    placeholder="e.g. 1 555-555-5555" 
+                    aria-label="Telephone Number"
+                    required
+                >
+                <button type="button" id="check-btn">Check</button>
+                <button type="button" id="clear-btn">Clear</button>
+            </form>
+            <div id="results-div"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
